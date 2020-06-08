@@ -23,7 +23,7 @@ function App() {
             <h2>Bixinhos</h2>
             <div className="row">
               {listaPets.map((array) => 
-                <div className="col-md-2">
+                <div className="col-sm-4 col-md-2">
                   <Card pet={array.pet} image={array.image} />
                 </div>
               )}
