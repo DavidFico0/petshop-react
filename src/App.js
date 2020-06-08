@@ -24,7 +24,7 @@ function App() {
             <div className="row">
               {listaPets.map((array) => 
                 <div className="col-md-2">
-                  <Card pet={array.pat} image={array.image} />
+                  <Card pet={array.pet} image={array.image} />
                 </div>
               )}
             </div>
